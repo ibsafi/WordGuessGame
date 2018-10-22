@@ -1,0 +1,129 @@
+body{
+    background-color: rgba(55, 55, 55, 0.85);
+    margin: 0;
+    padding: 0 12%;
+}
+.main-container{
+    margin-top: 2.5%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.game-img{
+    width: 500px;
+    height: 250px;
+    background-color: #777777; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.heading{
+    max-width: 480px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    color: rgba(200, 255, 230, 1);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    border: white solid 2px;
+    border-radius: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 10px auto;
+
+}
+.heading p{
+    line-height: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 230, 1);
+}
+.success-mode{
+    color: goldenrod;
+    font-weight: normal;
+}
+.fail-mode{
+    color: rgba(233, 25, 50, 1);
+    font-weight: normal;
+}
+.word-box{
+    color: white;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 10px;
+    letter-spacing: 10px;
+    padding: 10px 50px;
+    border: white solid 1px;
+    border-radius: 30px;
+    width: auto;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.info-box{
+    clear: both;
+    background-color: rgb(26, 63, 94);
+    text-align: center;
+    margin: 20px 0px;
+    border: 1px rgb(247, 247, 247) solid;
+    border-radius: 20px;
+    padding: 12.5px;
+}
+.info-content{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    margin: 10px;
+
+}
+.difficulty-box{
+    margin: 15px;
+    clear: both;
+    text-align: center;
+}
+.difficulty-option{
+    border-width: 4px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hard-clr{
+    background-color: rgb(232, 145, 13);
+    border-color: rgb(232, 145, 13);
+}
+.easy-clr{
+    background-color: rgb(22, 133, 64);
+    border-color: rgb(45, 191, 100);
+}
+.medium-clr{
+    background-color: rgb(23, 152, 209);
+    border-color:rgb(23, 152, 209);
+}
+.selected{
+    opacity: 1;
+    border-color:rgba(255, 255, 255, 1);
+
+}
