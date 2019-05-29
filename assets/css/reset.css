@@ -1,5 +1,7 @@
 body{
     background-color: rgba(55, 55, 55, 0.85);
+    background-image: url("./../images/background.jpg");
+    background-position: center; 
     margin: 0;
     padding: 0 12%;
 }
