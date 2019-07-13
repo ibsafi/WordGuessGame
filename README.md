@@ -12,3 +12,6 @@ This app doesn't require any of the dependencies.
 ## Screenshot of Usage:
 
   ![a Screenshot of the game](./assets/images/example.png)
+
+## Try it:
+This [link](https://ibsafi.github.io/WordGuessGame/) will jump you to test the application, have fun!
